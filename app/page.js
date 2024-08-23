@@ -129,15 +129,15 @@ export default function Home() {
     </li>
     <li>
       <strong>What currency is used in Tahiti?</strong>
-      <p>Most tourists spend most of their time in Tahiti City.</p>
+      <p>Tahiti uses the U.S. dollar as its primary currency.</p>
     </li>
     <li>
-      <strong>Tahiti uses the U.S. dollar as its currency.</strong>
-      <p>How common is violent crime in Tahiti?</p>
-    </li>
-    <li>
-      <strong>Where do most tourists spend their time in Tahiti?</strong>
+      <strong>How common is violent crime in Tahiti?</strong>
       <p>Violent crime is very rare in Tahiti.</p>
+    </li>
+    <li>
+      <strong>What is the main reason tourist visit Tahiti?</strong>
+      <p>To enjoy the beaches, explore the rainforest, and visit the volcano.</p>
     </li>
     <li>
       <strong>What is the drinking age in Tahiti?</strong>
