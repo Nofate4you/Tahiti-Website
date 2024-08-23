@@ -79,7 +79,7 @@ export default function Home() {
     <h1 className="absolute right-20 text-6xl mt-6 text-white">Welcome to Tahiti</h1>
   </div>
 <section id="locations" className="pt-25">
-  <h2 className="text-center mt-8 text-2xl text-blue-500 bg-gray-700">Locations</h2>
+  <h2 className="text-center mt-8 text-3xl text-blue-400 bg-gray-700">Locations</h2>
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-10 justify-items-center">
     {locationPhotos.map((x, i) => (
       <Cards
@@ -94,7 +94,7 @@ export default function Home() {
   </div>
 </section>
 
-  <h2 id="lodging" className="text-center mt-8 text-2xl text-blue-500 bg-gray-700">Lodging</h2>
+  <h2 id="lodging" className="text-center mt-8 text-3xl text-blue-400 bg-gray-700">Lodging</h2>
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-10 justify-items-center">
     {lodgingPhotos.map((x, i) => (
       <Cards
@@ -108,7 +108,7 @@ export default function Home() {
     ))}
   </div>
 
-  <h2 id="food" className="text-center mt-8 text-2xl text-blue-500 bg-gray-700">Food</h2>
+  <h2 id="food" className="text-center mt-8 text-3xl text-blue-400 bg-gray-700">Food</h2>
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-10 justify-items-center">
     {foodPhotos.map((x, i) => (
       <Cards
@@ -122,7 +122,7 @@ export default function Home() {
     ))}
   </div>
 
-  <h2 id="faqs" className="text-center mt-8 text-2xl text-blue-500 bg-gray-700">FAQs</h2>
+  <h2 id="faqs" className="text-center mt-8 text-3xl text-blue-400 bg-gray-700">FAQs</h2>
   <ul className="text-center flex flex-col gap-3">
     <li>
       <strong>Where do most tourists spend their time in Tahiti?</strong>
@@ -145,4 +145,13 @@ export default function Home() {
       <p>The drinking age in Tahiti is 18.</p>
     </li>
   </ul>
+  <section id='contact' className="bg-gray-700 p-10 mt-8">
+    <h2 className="text-center text-3xl text-blue-300">Contact Us</h2>
+    <form className="flex flex-col gap-4 items-center">
+    <input type="text" placeholder="Name" className="w-full max-w-md p-2 rounded" />
+    <input type="email" placeholder="Email" className="w-full max-w-md p-2 rounded" />
+    <textarea placeholder="Questions?" className="w-full max-w-md p-2 rounded h-28"></textarea>
+    <button type="submit" className="bg-blue-300 text-black p-2 rounded">Submit</button>
+    </form>
+  </section>
 </main>)}
