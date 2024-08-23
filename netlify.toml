@@ -1,7 +1,8 @@
 [build]
   command = "npm run build"
-  publish = ".next"
-  
+  publish = "."
+
+# Optional: Handle redirects if needed
 [[redirects]]
   from = "/*"
   to = "/index.html"
