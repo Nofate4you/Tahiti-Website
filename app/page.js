@@ -71,10 +71,9 @@ export default function Home() {
     <Image
       src="/photos/Banner.jpg"
       alt="banner"
-      layout="fill"  // This makes the image fill the container
-      objectFit="cover"  // This ensures the image covers the area without distortion
-      objectPosition="center"  // This ensures the top part of the image is shown
-      quality={100}  // Keeps the image quality high
+      fill  
+      style={{ objectFit: 'cover', objectPosition: 'center' }}  
+      quality={100}
     />
     <h1 className="absolute right-20 text-6xl mt-6 text-white">Welcome to Tahiti</h1>
   </div>

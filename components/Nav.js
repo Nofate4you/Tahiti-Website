@@ -10,7 +10,7 @@ const Nav = () => {
     { name: "FAQs", link: "/#faqs" },
   ];
   return <nav className="flex justify-around sticky top-0 bg-black z-10">{navLinks.map((x,i)=>(
-    <Link key={i} href={x.link} className="text-3xl text-white hover:text-red-500">{x.name}</Link>
+    <Link key={i} href={x.link} className="text-4xl text-white hover:text-red-500">{x.name}</Link>
   ))}</nav>;
 };
 
